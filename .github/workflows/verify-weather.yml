@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      LLAVE: ${{ secrets.WEATHER_API_KEY }}
+      WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
       CITY: ${{ github.event.inputs.city }}
 
     steps:
